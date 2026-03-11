@@ -14,7 +14,7 @@ library(impute)
 #########################
 #   before ECMO         #
 #########################
-#PEEI模型（Prognosis ECMO Evaluation at Initiation）用于上机前决策
+#Prognosis Evaluation at ECMO Initiation (PEEI) model
 #mix imp and mucox
 data=read.csv("./Results/2.final_Data.csv")
 colnames(data)
