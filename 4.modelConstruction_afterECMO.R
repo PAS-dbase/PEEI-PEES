@@ -15,7 +15,7 @@ library(survival)
 library(riskRegression)
 library(tibble)
 library(purrr)
-#PEES模型（Prognosis ECMO Evaluation after Support）用于上机24小时后的再次评估
+#Prognosis Evaluation after ECMO Support (PEES) model (after ECMO 24h)
 # ==================== part 1 data deal ====================
 # 所有差异指标 单cox 
 bm_df=read.csv("./Results/2.unicox_data_withoutFill_0.1.csv")
